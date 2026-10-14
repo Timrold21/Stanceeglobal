@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Stancee's professional services. We offer Study Abroad university selection, visas, relocation logistics, CV revamps, and career assessments.">
+    <title>Our Services | Stancee Educational Services and Travel</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for social icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="navbar">
+            <a href="index.html#home" class="logo">
+                <img src="assets/logo.jpg" alt="Stancee Educational Services & Travel Logo" class="logo-img">
+            </a>
+            
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="about.html" class="nav-link dropdown-toggle">About Us <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="about.html#who-we-are" class="dropdown-item">Who We Are</a></li>
+                            <li><a href="about.html#destinations" class="dropdown-item">Our Destinations</a></li>
+                            <li><a href="about.html#recruitment" class="dropdown-item">Recruitment Opportunities</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="services.html" class="nav-link dropdown-toggle active">Services <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.html" class="dropdown-item">All Services</a></li>
+                            <li><a href="services.html#study" class="dropdown-item">Study Abroad Services</a></li>
+                            <li><a href="services.html#work" class="dropdown-item">Work Relocation Services</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html#destinations" class="nav-link">Destinations</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                    <li><a href="index.html#contact" class="nav-cta">Book Consultation</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Intro Hero Banner -->
+        <section class="hero" style="padding-top: 80px; padding-bottom: 60px; background-color: var(--bg-sand); border-bottom: 1px solid var(--border-light);">
+            <div class="container text-center">
+                <span class="section-tag">What We Do</span>
+                <h1 style="font-size: 3.2rem; margin-bottom: 20px;">Our Services</h1>
+                <p style="color: var(--text-muted); font-size: 1.15rem; max-width: 800px; margin: 0 auto;">
+                    At Stancee Educational Services and Travel, we offer comprehensive education, travel, career, and relocation solutions designed to help our clients achieve their international goals.
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Main Sections -->
+        <section class="services-detail" style="background-color: #ffffff; padding-top: 100px; padding-bottom: 100px;">
+            <div class="container" style="max-width: 1100px; display: flex; flex-direction: column; gap: 80px;">
+                
+                <!-- Section 1: Study Abroad Services -->
+                <div class="statement-card animate-fade-up" id="study" style="padding: 50px; border-top: 4px solid var(--accent-color); border-radius: 8px;">
+                    <div class="statement-header" style="margin-bottom: 30px; display: flex; align-items: center; gap: 20px;">
+                        <div class="service-icon" style="margin-bottom: 0; width: 64px; height: 64px; background-color: var(--accent-light); display: flex; align-items: center; justify-content: center; border-radius: 50%;">
+                            <svg viewBox="0 0 24 24" style="width: 32px; height: 32px; stroke: var(--accent-color); fill: none; stroke-width: 1.8;"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+                        </div>
+                        <div>
+                            <h2 style="font-size: 2.2rem; font-family: var(--font-heading); color: var(--primary-color);">Study Abroad Services</h2>
+                            <p style="font-size: 1.05rem; color: var(--accent-hover); font-weight: 600; margin-top: 4px;">Comprehensive guidance for international education</p>
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 35px; line-height: 1.7;">
+                        At Stancee Educational Services, we provide comprehensive guidance to students seeking quality education abroad. We guide you through the choosing, applying, and settling phases to ensure your academic journey starts with total confidence.
+                    </p>
+                    
+                    <div style="border-top: 1px solid var(--border-light); padding-top: 35px;">
+                        <h3 style="font-size: 1.3rem; margin-bottom: 25px; font-family: var(--font-body); font-weight: 700;">What Our Services Include:</h3>
+                        <ul class="service-bullets-grid">
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>University & College Selection</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Matching your academic profile with elite global institutions.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Course & Career Counselling</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Aligning your course selection with international career demands.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Admission Application Processing</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Managing direct submissions and tracking admissions cycle timelines.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Statement of Purpose & Motivation Guidance</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Personalized coaching to craft compelling essays and personal reviews.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>CV & Academic Document Review</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Reviewing transcript documents, portfolios, and academic profiles.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Student Visa Guidance & Documentation</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Expert document compilation and visa interview coaching support.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Education Loan & Financial Guidance</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Advising on financial sponsor proofs and funding compliance.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Pre-departure Orientation</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Essential cultural, academic, and relocation briefings.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Accommodation Guidance</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Helping you secure housing, hostels, or student rentals abroad.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Airport Pickup & Settlement Support</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Ensuring smooth transit and welcoming setups where available.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--accent-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Dependant Visa Guidance</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Guidance for processing family/spouse visas where applicable.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Section 2: Work Relocation Services -->
+                <div class="statement-card animate-fade-up delay-1" id="work" style="padding: 50px; border-top: 4px solid var(--primary-color); border-radius: 8px;">
+                    <div class="statement-header" style="margin-bottom: 30px; display: flex; align-items: center; gap: 20px;">
+                        <div class="service-icon" style="margin-bottom: 0; width: 64px; height: 64px; background-color: rgba(10, 37, 64, 0.05); display: flex; align-items: center; justify-content: center; border-radius: 50%;">
+                            <svg viewBox="0 0 24 24" style="width: 32px; height: 32px; stroke: var(--primary-color); fill: none; stroke-width: 1.8;"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+                        <div>
+                            <h2 style="font-size: 2.2rem; font-family: var(--font-heading); color: var(--primary-color);">Work Relocation Services</h2>
+                            <p style="font-size: 1.05rem; color: var(--accent-color); font-weight: 600; margin-top: 4px;">Ethical recruitment support and professional migration</p>
+                        </div>
+                    </div>
+                    
+                    <p style="font-size: 1.1rem; color: var(--text-muted); margin-bottom: 35px; line-height: 1.7;">
+                        We assist qualified candidates seeking international employment opportunities through ethical recruitment support and relocation guidance. We partner with licensed agencies to provide transparent global placement channels.
+                    </p>
+                    
+                    <div style="border-top: 1px solid var(--border-light); padding-top: 35px;">
+                        <h3 style="font-size: 1.3rem; margin-bottom: 25px; font-family: var(--font-body); font-weight: 700;">What Our Services Include:</h3>
+                        <ul class="service-bullets-grid">
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Career Assessment & Eligibility Evaluation</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Assessing your profile against visa regulations and market demands.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>CV & Cover Letter Preparation</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Reformatting profiles to fit ATS and global recruitment standards.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>International Job Search Support</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Coaching on global portals and targeting overseas openings.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Access to Verified Sponsorship Jobs</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Connecting you to roles that explicitly offer visa sponsorships.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Recruitment Assessment & Profiling</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Candidate profiling to ensure direct alignment with global employers.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Interview Preparation & Coaching</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Conducting mock interviews, panel reviews, and behavioral drills.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Work Visa Guidance & Documentation</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Complete guidance on sponsorships, work permit files, and paperwork.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Relocation Planning & Pre-departure Support</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Assisting with essential settlement check-sheets and travel.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Work Relocation Webinars & Sessions</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Regular interactive briefings on global relocation frameworks.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Immigration Updates & Market Information</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Real-time analysis on shortage occupation lists and labor regulations.</span>
+                                </div>
+                            </li>
+                            <li style="font-size: 1rem; color: var(--text-dark); display: flex; align-items: flex-start; gap: 12px; font-weight: 500;">
+                                <i class="fa-solid fa-check" style="color: var(--primary-color); margin-top: 5px;"></i>
+                                <div>
+                                    <strong>Ongoing Relocation Advisory Services</strong>
+                                    <span style="display: block; font-size: 0.85rem; color: var(--text-muted); margin-top: 2px;">Direct consulting support even after visa acquisition and arrival.</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- Call to action booking -->
+        <section style="background-color: var(--bg-sand); padding: 80px 8%; text-align: center; border-top: 1px solid var(--border-light);">
+            <div class="container">
+                <span class="section-tag">Take the Next Step</span>
+                <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Ready to Begin Your Journey?</h2>
+                <p style="color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto 35px auto;">
+                    Schedule a private consultation with Stancee Educational Services today and build your roadmap to global success.
+                </p>
+                <a href="index.html#contact" class="btn btn-primary">Book Consultation Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col-brand">
+                <a href="index.html#home" class="footer-logo">
+                    <img src="assets/logo.jpg" alt="Stancee Educational Services & Travel Logo" class="footer-logo-img">
+                </a>
+                <p>
+                    Empowering individuals and families to achieve their academic, career, and migration goals through ethical, reliable, and professional consultancy.
+                </p>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul class="footer-links">
+                    <li><a href="services.html#study">Study Abroad Services</a></li>
+                    <li><a href="services.html#work">Work Relocation Services</a></li>
+                    <li><a href="services.html#study">University Selection</a></li>
+                    <li><a href="services.html#work">Visa Sponsorship Jobs</a></li>
+                    <li><a href="services.html#work">CV & Cover Letter Prep</a></li>
+                    <li><a href="services.html#work">Interview Coaching</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Destinations</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html#destinations">Europe</a></li>
+                    <li><a href="about.html#destinations">North America</a></li>
+                    <li><a href="about.html#destinations">Oceania</a></li>
+                    <li><a href="about.html#destinations">Asia & Gulf</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>About Us</h4>
+                <ul class="footer-links">
+                    <li><a href="about.html#who-we-are">Our Story</a></li>
+                    <li><a href="about.html#who-we-are">Mission & Vision</a></li>
+                    <li><a href="about.html#destinations">Destination Countries</a></li>
+                    <li><a href="index.html#contact">Contact Details</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get in Touch</h4>
+                <ul class="footer-contact-list">
+                    <li class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                        <div>
+                            <strong>Phone</strong>
+                            <span>+234 08034446204</span>
+                        </div>
+                    </li>
+                    <li class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        <div>
+                            <strong>Email</strong>
+                            <span>stanceeconsult@gmail.com</span>
+                        </div>
+                    </li>
+                    <li class="footer-contact-item">
+                        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        <div>
+                            <strong>Hours</strong>
+                            <span>Mon – Fri: 10AM – 5PM</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Stancee Educational Services and Travel. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="index.html#home">Privacy Policy</a>
+                <a href="index.html#home">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
